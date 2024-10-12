@@ -11,6 +11,9 @@ BuildRequires:	python%{pyver}dist(hatchling)
 BuildRequires:	python%{pyver}dist(hatch-fancy-pypi-readme)
 BuildArch:	noarch
 
+%patchlist
+allow-newer-pydantic-core.patch
+
 %description
 Data validation using Python type hints
 

@@ -1,0 +1,24 @@
+diff -up pydantic-2.9.2/PKG-INFO.omv~ pydantic-2.9.2/PKG-INFO
+--- pydantic-2.9.2/PKG-INFO.omv~	2024-10-12 05:05:10.867287779 +0200
++++ pydantic-2.9.2/PKG-INFO	2024-10-12 05:05:13.787319298 +0200
+@@ -36,7 +36,7 @@ Classifier: Topic :: Internet
+ Classifier: Topic :: Software Development :: Libraries :: Python Modules
+ Requires-Python: >=3.8
+ Requires-Dist: annotated-types>=0.6.0
+-Requires-Dist: pydantic-core==2.23.4
++Requires-Dist: pydantic-core>=2.23.4
+ Requires-Dist: typing-extensions>=4.12.2; python_version >= '3.13'
+ Requires-Dist: typing-extensions>=4.6.1; python_version < '3.13'
+ Provides-Extra: email
+diff -up pydantic-2.9.2/pyproject.toml.omv~ pydantic-2.9.2/pyproject.toml
+--- pydantic-2.9.2/pyproject.toml.omv~	2024-10-12 05:05:03.137204366 +0200
++++ pydantic-2.9.2/pyproject.toml	2024-10-12 05:05:06.977245798 +0200
+@@ -50,7 +50,7 @@ dependencies = [
+     'typing-extensions>=4.6.1; python_version < "3.13"',
+     'typing-extensions>=4.12.2; python_version >= "3.13"',
+     'annotated-types>=0.6.0',
+-    "pydantic-core==2.23.4",
++    "pydantic-core>=2.23.4",
+ ]
+ dynamic = ['version', 'readme']
+ 
