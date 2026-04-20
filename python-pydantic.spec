@@ -1,7 +1,7 @@
 %define module pydantic
 
 Name:		python-pydantic
-Version:	2.13.2
+Version:	2.13.3
 Release:	1
 Summary:	Data validation using Python type hints
 License:	MIT
