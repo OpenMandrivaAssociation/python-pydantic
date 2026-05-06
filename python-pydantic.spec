@@ -1,5 +1,9 @@
 %define module pydantic
 
+# NOTE update python-pydantic-core BEFORE updating this package, both packages are
+# NOTE version matched/dependant, but pydantic requires pydantic-core to exist in the
+# NOTE package repositories first to pass build tests.
+
 Name:		python-pydantic
 Version:	2.13.4
 Release:	1
