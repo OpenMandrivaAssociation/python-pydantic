@@ -6,7 +6,7 @@
 
 Name:		python-pydantic
 Version:	2.13.4
-Release:	1
+Release:	2
 Summary:	Data validation using Python type hints
 License:	MIT
 Group:		Development/Python
@@ -19,6 +19,7 @@ BuildRequires:	python%{pyver}dist(hatchling)
 BuildRequires:	python%{pyver}dist(hatch-fancy-pypi-readme)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	python%{pyver}dist(pydantic-core) = 2.46.4
 
 %description
 Data validation using Python type hints
